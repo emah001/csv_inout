@@ -6,6 +6,8 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource {
     
+    @IBOutlet weak var testTableView: UITableView!
+    
     //表示データ
     let dataList = [[1, "3A", "野球部"],
                     [2, "2B", "サッカー部"],
